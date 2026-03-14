@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Tesouros do IFPI é uma iniciativa que reconhece e homenageia pessoas que marcaram a história do Instituto Federal do Piauí, valorizando trajetórias, contribuições e legados na educação e na sociedade." />
+    <meta name="author" content="Equipe Apesar do IFPI / 266 TDS" />
+    <meta property="og:title" content="Tesouros do IFPI" />
+    <meta property="og:description"
+        content="Tesouros do IFPI é uma iniciativa que reconhece e homenageia pessoas que marcaram a história do Instituto Federal do Piauí, valorizando trajetórias, contribuições e legados na educação e na sociedade." />
+    <meta property="og:image" content="/img/tesouros_do_ifpi16x8.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/img/icon.png">
+
+    <title>Meus Votos</title>
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+
+        <div class="card shadow-lg p-4 w-100" style="max-width: 700px;">
+
+            <div class="d-flex justify-content-between align-items-center mb-3">
+
+                <h1 class="text-success m-0">
+                    Meus Votos
+                </h1>
+
+                <div class="d-flex align-items-center gap-3">
+
+                    <span class="text-muted" id="cpf_usuario"></span>
+
+                    <a href="#" class="btn btn-danger btn-sm" id="btn_sair">
+                        Sair
+                    </a>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <!-- {% if votos %}
+                {% for voto in votos %} -->
+                <div class="col-sm-6 mb-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome da categoria</h5>
+                            <p class="card-text">Descrição da categoria Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Architecto exercitationem offici</p>
+                            <!-- {% if voto.confirmacao == False %} -->
+                            <a href="#" class="btn btn-success">Votar</a>
+                            <!-- {% else %} -->
+                            <button class="btn btn-secondary" disabled>Votado</button>
+                            <!-- {% endif %} -->
+                        </div>
+                    </div>
+                </div>
+                <!-- {% endfor %}
+                {% endif %} -->
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="/js/auth.js"></script>
+</body>
+
+</html>
